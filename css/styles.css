@@ -481,9 +481,15 @@ img {
 
 .footer-content {
     display: flex;
-    gap: 120px;
 }
 
+.footer-leftpart {
+    margin-right: 120px;
+}
+
+.footer-rightpart {
+    margin-right: 80px;
+}
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -501,7 +507,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-background-color);
-    max-width: 264px;
+    width: 264px;
     margin-top: 16px;
 }
 
@@ -559,13 +565,6 @@ img {
 
 /*----- footer form----- */
 
-.footer-form {
-    display: flex;
-    min-width: 453px;
-    height: 80px;
-
-}
-
 .footer-form-label {
     display: block;
     font-weight: 500;
@@ -575,11 +574,16 @@ img {
     color: var(--white-color);
 }
 
+.footer-form-input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
 .footer-input {
-    display: block;
     width: 264px;
     height: 40px;
-    margin-top: 16px;
     margin-right: 24px;
     padding: 8px 16px;
     font-size: 12px;
@@ -599,8 +603,6 @@ img {
 
 .footer-form-btn {
     display: flex;
-    margin-right: auto;
-    margin-top: auto;
     padding: 8px 24px;
     height: 40px;
     align-items: center;
